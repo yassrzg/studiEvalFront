@@ -1,4 +1,5 @@
 import React from 'react'
+import { fetcher } from "../../lib/api";
 
 export default function index(props) {
   const { tarifs } = props;
@@ -21,10 +22,7 @@ export default function index(props) {
 }
 
 export async function getStaticProps() {
-  const data = await fetch("http://localhost:1337/api/tarif-prestations", {
-    method: "GET",
-  });
-  const tarifs = await data.json();
+  const tarifs = await fetcher(`${process.env.NEXT_PUBLIC_STRAPI_URL}/tarif-prestations`);
 
   return {
     props: {
