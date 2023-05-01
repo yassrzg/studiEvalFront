@@ -1,0 +1,23 @@
+.container-home {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html, body {
+   height: 100vh;
+}
+
+.title-home {
+    font-size: 4rem;
+}
+
+.logo-home {
+    width: 4rem;
+}
+
+.home {
+    text-align: center;
+    margin: auto;
+}
