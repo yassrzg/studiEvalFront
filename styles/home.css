@@ -9,15 +9,25 @@ html, body {
    height: 100vh;
 }
 
-.title-home {
-    font-size: 4rem;
-}
+
 
 .logo-home {
-    width: 4rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 15px rgb(43 44 50 / 80%);
 }
 
 .home {
     text-align: center;
     margin: auto;
+}
+
+
+/* MEDIA QUERRIES */
+
+@media (max-width: 767px) {
+   
+    .container-home{
+        margin-top: 15%;
+    }
 }

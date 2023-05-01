@@ -42,3 +42,21 @@
 .description {
     text-align: justify;
 }
+
+/* MEDIA QUERRIES */
+
+@media (max-width: 767px) { 
+
+    .img {
+        height: 20rem;
+    }
+
+    .galerie-page {
+       margin-top: 5%;
+    }
+
+    .galerie-page-content {
+        margin-top: 15%;
+    }
+
+}

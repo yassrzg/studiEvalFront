@@ -6,7 +6,6 @@ export default function Home({ posts }) {
       <div className="text-center container-home">
         {posts && (
           <div key={posts.data.id} className="home">
-            <h1 className="title-home">{posts.data.attributes.title}</h1>
             {posts.data.attributes.logoAcceuil && (
               <img src={`http://localhost:1337${posts.data.attributes.logoAcceuil.data.attributes.url}`} alt={posts.data.attributes.logoAcceuil.data.attributes.caption} className="logo-home"/>
             )}

@@ -1,0 +1,42 @@
+.navbar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar1 Link, .navbar1 a {
+    text-decoration: none !important;
+    margin-right: 1rem;
+}
+
+.navbar1 div {
+    display: flex;
+    justify-content: center;
+    padding: 2% 10%;
+}
+
+a:hover {
+    font-weight: bolder;
+    display: block;
+}
+
+
+#navbar-phone {
+    display: none;
+}
+
+
+/* MEDIA QUERRIES */
+
+@media (max-width: 767px) {
+    #navbar-phone {
+        display: block;
+        padding: 1rem;
+        background-color: gray;
+    }
+
+    #navbar-pc {
+        display: none;
+    }
+
+}

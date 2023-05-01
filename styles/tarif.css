@@ -9,3 +9,17 @@
     margin-top: 3rem;
     width: 50%;
 }
+/* MEDIA QUERRIES */
+
+@media (max-width: 767px) {
+.tarif-page {
+    margin-top: 15%;
+}
+.tarif {
+    width: 90%;
+    text-align: justify;
+}
+
+
+
+}

@@ -27,7 +27,7 @@ const GalerieComponent = ({ galeries }) => {
     };
   
     return (
-      <div>
+      <div className="galerie-page">
         <div className="filtre offset-md-8">
             <h4>Filtre</h4>
           {/* Menu déroulant */}
@@ -48,7 +48,7 @@ const GalerieComponent = ({ galeries }) => {
               const { url, alternativeText, width, height } = ImgPhoto.data.attributes.formats.thumbnail;
   
               return (
-                <div className="col-4 galerie">
+                <div className="col-lg-4 col-12 galerie">
                   <div key={id} className="target-galerie">
                     {ImgPhoto && (
                       <img

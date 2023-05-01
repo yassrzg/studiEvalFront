@@ -4,7 +4,7 @@ export default function index(props) {
   const { tarifs } = props;
   
   return (
-    <div className='container px-4 py-5'>
+    <div className='container px-4 py-5 tarif-page'>
       <h1 className='title-tarif text-center'>Tarif et Prestations</h1>
       {tarifs.data.map((tarif) => (
         <div key={tarif.id}>
